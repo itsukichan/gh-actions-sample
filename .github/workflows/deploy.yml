@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  hoge:
+    # test job
+    runs-on: ubuntu-latest
+
+    # job steps
+    steps:
+      - name: Run Run Ru
+        run: echo Run Run Ru - !
+      
